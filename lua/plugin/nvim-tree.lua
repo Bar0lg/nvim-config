@@ -1,13 +1,13 @@
 local M = {
-    "nvim-treesitter/nvim-treesitter",
+    "nvim-tree/nvim-tree.lua",
     version = "*",
 	lazy = false,   -- We want to see the highlighting since the start, so false
-    dependencies = { 'nvim-lua/plenary.nvim' },
+    dependencies = { 'nvim-tree/nvim-web-devicons' },
 
 }
 
 function M.config()
-    require "nvim-treesitter.configs".setup {}
+    require "nvim-tree".setup {}
 end
 
 return M

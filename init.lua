@@ -38,6 +38,7 @@ spec("plugin.lsp-zero")
 spec("plugin.mason")
 spec("plugin.autopairs")
 spec("plugin.lualine")
+spec("plugin.nvim-tree")
 require "plugin.lazy"
 require "keymaps"
 
